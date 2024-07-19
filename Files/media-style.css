@@ -1,0 +1,297 @@
+@media (max-width:379px){
+    .box{
+        width:90vw;
+        height:95vh;
+    }
+    .skills{
+        width:90vw;
+    } 
+    .box hr{
+        width:75vw;
+    }
+}
+@media (height:600px){
+    .profile-pic{
+        height:12vh;
+        width:7.5vw;
+        top:8vh;
+    }
+}
+@media (max-width:649px) and (min-width:380px){
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.zOmbFqEZn7PH179iAFJjEwAAAA?rs=1&pid=ImgDetMain");
+        height: 95vh;
+        margin: 0;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+    }
+    .box {
+        width: 90vw;
+        height:90%;
+        max-width: 400px;
+    }
+    .bg {
+        width: 90vw;
+        height: 40vh;
+        border-radius: 40px 40px 0 0;
+    }
+    .bg img {
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+    .box .profile-pic {
+        width: 18vw;
+        height: 10%;
+        border-radius: 50%;
+        border: 3px solid cyan;
+        position: absolute;
+        top: 7vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color:white;
+        text-align:center;
+        background-color:black;
+        font-weight:400;
+        font-size:20px;
+    }
+    .box h1 {
+    margin-top: 0; 
+    margin-bottom: 10px;
+    padding-top:0px;
+}
+.box h2 {
+    font-size:18px;
+}
+.box hr{
+    width:75vw;
+}
+.social-media a{
+    margin:0 10px;
+}
+.social-media img{
+    height:20px;
+    width:auto;
+}
+.skills{
+    height:35vh;
+    width:90vw;
+}
+
+.bio{
+    margin-top:10vh;
+    margin:0 auto; 
+    display:flex; 
+    flex-direction: column;
+    justify-content:center;
+}
+.bio h3{
+    font-size:25px;
+    margin:0 5vw;
+}
+.skills p{
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+}
+.skills h3{
+    font-size: 25px;
+    margin:20px;
+    line-height: 0;
+}
+.bio p{
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    margin-left:10px;
+    margin-top:5px;
+    line-height: 20px;
+    border: none;
+    border-radius:10px;
+    padding-left: 5px;
+    padding-right:5px;
+    font-size:15px;
+    word-wrap: break-word;
+    white-space: pre-wrap; 
+}
+hr[class="overlay"]{
+    display:flex;
+}
+.social-media img{
+        color:blue;
+        font-weight: 600;
+    }
+}
+@media (min-width: 650px) and (max-width:855px){
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.zOmbFqEZn7PH179iAFJjEwAAAA?rs=1&pid=ImgDetMain");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        margin: 0;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+    }
+    body::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: inherit;
+        filter: blur(10px);
+        z-index: -1;
+    }
+    .box {
+        width: 90vw;
+        height:90%;
+    }
+    @media (max-height:1024px) and (max-width:770px) {
+    .profile-pic{
+        height:20vh;
+        width:25vw;
+        position: absolute;
+        border-radius:20px;
+        top: 12.5vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    }
+    @media (max-height:1200px) and (min-height:1100px){
+    .profile-pic{
+        height:15vh;
+        width:20vw;
+        position: absolute;
+        border-radius:20px;
+        top: 10vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .bio{
+        margin-top:15vh;
+        display:contents;
+    }
+    .bio h3{
+        font-size:35px;
+    }
+    .bio p{
+        margin:20px 5vw;
+        font-size:20px;
+    }
+    hr[class="overlay"]{
+        display:flex;
+    }
+}
+    .box h1{
+        font-size:70px;
+        padding:10px;
+        margin:20px auto;
+    }
+    .box h2{
+        font-size:40px;
+    }
+    .box h3{
+        font-size:25px;
+    }
+    .box hr{
+        width:80vw;
+        height:2px;
+        color:darkgray;
+    }
+    .skills{
+        width:90vw;
+    }
+    .skills h3{
+        font-size:35px;
+    }
+    .skills p{
+        font-size:30px;
+        word-wrap: none;
+        white-space: none; 
+        line-height: 40px;
+    }
+    .social-media img{
+        height: 30px;
+        margin:0 10px;
+    }
+}
+@media (min-height: 1300px) and (max-height:1400px) {
+    body {
+        background-image: url("https://th.bing.com/th/id/OIP.zOmbFqEZn7PH179iAFJjEwAAAA?rs=1&pid=ImgDetMain");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 95vh;
+        margin: 0;
+        background-color: white;
+        position: relative;
+        overflow: hidden;
+    }
+    .box {
+        width: 90vw;
+        height:90%;
+    }
+    .profile-pic{
+        height:20vh;
+        width:25vw;
+        border:5px solid cyan;
+        position: absolute;
+        border-radius:20px;
+        top: 12vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .box h1{
+        font-size:70px;
+        padding:10px;
+        margin:20px auto;
+    }
+    .box h2{
+        font-size:45px;
+    }
+    .box h3{
+        font-size:30px;
+    }
+    .box hr{
+        width:80vw;
+        height:2px;
+        color:darkgray;
+    }
+    .skills{
+        width:90vw;
+    }
+    .skills h3{
+        font-size:35px;
+    }
+    .skills p{
+        font-size:30px;
+        word-wrap: none;
+        white-space: none; 
+        line-height: 40px;
+        border-radius:40px;
+        padding: 0 10px;
+    }
+    .social-media img{
+        height: 30px;
+        margin:0 10px;
+    }
+    .bio{
+        margin-top:15vh;
+        display:contents;
+    }
+    .bio h3{
+        font-size:35px;
+    }
+    .bio p{
+        margin:20px 5vw;
+        font-size:25px;
+    }
+    hr[class="overlay"]{
+        display:flex;
+    }
+}

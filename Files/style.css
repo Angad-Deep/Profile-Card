@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+        body {
+            background-image: url("https://th.bing.com/th/id/OIP.zOmbFqEZn7PH179iAFJjEwAAAA?rs=1&pid=ImgDetMain");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            position: relative;
+            overflow: hidden;
+            font-family: 'DM Sans', sans-serif;
+        }
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: inherit;
+            filter: blur(10px);
+            z-index: -1;
+        }
+        .box {
+            width: 30vw;
+            height: 90vh;
+            background-color: whitesmoke;
+            border-radius: 50px;
+            border: 5px double black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            box-shadow: 2px 2px 4px 4px cyan;
+            overflow: hidden;
+        }
+        .bg {
+            width: 100%;
+            height: 40vh;
+            border-radius: 40px 40px 0 0;
+            overflow: hidden;
+            position: relative;
+        }
+        .bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .profile-pic {
+            width: 110px;
+            height: 115px;
+            border-radius: 100%;
+            border: 2px inset cyan;
+            position: absolute;
+            top: 20vh;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .box h1 {
+            margin-top: 50px; 
+            margin-bottom: 10px; 
+            text-align: center;
+            font-size: 35px;
+        }
+        .box h3 {
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            font-size: 15px; 
+        }
+        .box h2 {
+            margin: 0 auto;
+            padding: 0;
+            text-align: center;
+            font-size: 19px;
+        }
+        .box hr{
+            width:25vw;
+        }
+        .social-media a{
+            margin:0 10px;
+
+        }
+        .social-media img{
+            height:20px;
+            width:auto;
+            display:inline-flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .skills{
+            height:auto;
+            width:30vw;
+        }
+        .skills p{
+            display:inline-flex;
+            align-items:center;
+            justify-content: center;
+            margin-left:15px;
+            line-height: 20px;
+            border: 2px solid black;
+            border-radius:10px;
+            background-color: rgb(223, 223, 223);
+            padding-left: 5px;
+            padding-right:5px;
+            font-size:15px;
+        }
+        .skills h3{
+            align-items:center;
+            display:inline-flex;
+            justify-content: left;
+            font-size: 20px;
+            margin:20px;
+            line-height: 0;
+        }
+        .bio{
+            display:none;
+        }
+        hr[class='overlay']{
+            display:none;
+        }
